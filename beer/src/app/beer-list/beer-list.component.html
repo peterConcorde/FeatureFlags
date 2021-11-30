@@ -1,0 +1,34 @@
+<table class="center" mat-table [dataSource]="beers" >
+    <!-- Name Column -->
+    <ng-container matColumnDef="Name">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let beer"> {{beer.name}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="Tagline">
+        <th mat-header-cell *matHeaderCellDef> Tagline </th>
+        <td mat-cell *matCellDef="let beer"> {{beer.tagline}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="FirstBrewed">
+        <th mat-header-cell *matHeaderCellDef> FirstBrewed </th>
+        <td mat-cell *matCellDef="let beer"> {{beer.first_brewed}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="Abv">
+        <th mat-header-cell *matHeaderCellDef> abv </th>
+        <td mat-cell *matCellDef="let beer"> {{beer.abv}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
+<mat-paginator  class="center" [length]="totalPaginationLength"
+[pageSize]="10"
+[pageSizeOptions]="[5, 10]"
+(page)="paginate($event)">
+</mat-paginator>

@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureFlagServer", "FeatureFlagServer\FeatureFlagServer.csproj", "{1E4C32D5-1363-4AE5-B2F1-4AB8874A3466}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeatureFlagServer", "FeatureFlagServer\FeatureFlagServer.csproj", "{1E4C32D5-1363-4AE5-B2F1-4AB8874A3466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureFlagsServerUnitTests", "FeatureFlagsServerUnitTests\FeatureFlagsServerUnitTests.csproj", "{AB210926-3B30-474A-8180-2F2BD9FF829C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeatureFlagsServerUnitTests", "FeatureFlagsServerUnitTests\FeatureFlagsServerUnitTests.csproj", "{AB210926-3B30-474A-8180-2F2BD9FF829C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A397F8C-C616-4FF9-96E6-F226A23DE302}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Beer", "Beer\Beer.esproj", "{7C810231-4A53-466F-951A-C579C3EBC844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,12 @@ Global
 		{AB210926-3B30-474A-8180-2F2BD9FF829C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB210926-3B30-474A-8180-2F2BD9FF829C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB210926-3B30-474A-8180-2F2BD9FF829C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C810231-4A53-466F-951A-C579C3EBC844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C810231-4A53-466F-951A-C579C3EBC844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C810231-4A53-466F-951A-C579C3EBC844}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7C810231-4A53-466F-951A-C579C3EBC844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C810231-4A53-466F-951A-C579C3EBC844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C810231-4A53-466F-951A-C579C3EBC844}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

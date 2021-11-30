@@ -1,0 +1,12 @@
+{ 
+    "env": {
+        "name": "dev"
+    },
+    "urls": {
+        "punkApiBaseAddress" : "https://api.punkapi.com/v2/beers"
+    },
+    "features": {
+        "featureA": true,
+        "featureB": false
+    }
+}

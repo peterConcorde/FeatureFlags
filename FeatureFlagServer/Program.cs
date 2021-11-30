@@ -8,7 +8,7 @@ builder.Services.AddLogging();
 
 // Add services to the container.
 builder.Services.AddScoped<IFlagService, FlagService>();
-builder.Services.AddSingleton<IEntityRepository<FlagEntity,int>, MemoryFlagRepository>();
+builder.Services.AddSingleton<IEntityRepository<FlagEntity, int>, MemoryFlagRepository>();
 
 builder.Services.AddControllers();
 
